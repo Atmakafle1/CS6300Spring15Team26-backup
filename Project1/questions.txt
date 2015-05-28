@@ -1,0 +1,2 @@
+What error conditions does the application need to take care of?
+What encoding do the input text files use?

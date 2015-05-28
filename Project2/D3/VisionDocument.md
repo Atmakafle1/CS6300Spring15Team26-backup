@@ -1,0 +1,71 @@
+# Vision Document
+
+**Author**: **Team26**
+
+## 1 Introduction
+
+Payment and rewards management system (PReMS) is an Android application that will allow the two farmers of a mobile stall
+to manage payment and rewards for their customers. PReMS can be used on their Android devices to add/edit customers,
+process payments, track transaction history, and send rewards' related emails.
+
+## 2 Business Needs / Requirements
+
+Brad and Janet are two young farmers from the Atlanta area who sell their produce regularly at local farmers markets.
+Currently, they have no effective system to manage payments and reward their loyal customers. A full-fledged Payments
+processing system from a big vendor will be very expensive and would require expense infrastructure and maintenance cost
+as well.
+To simplify the payment process using a low cost application and keep loyal customers, they need a Payment and rewards 
+management system to handle these problems quickly and easily. Hence PReMS will be built to run on the Android Mobile 
+OS for convenience and conciseness.
+
+## 3 Product / Solution Overview
+
+PReMS is an application which can be used on any Android device (preferably mobile phones). It integrates with other Android
+utility components (credit-card scanning, payment processing, and email management) to offer payment and rewards management
+features.
+
+The application will store customer information and track transactions to help the stall managers reward their loyal
+customers. The application will interact with credit-card scanner service and a payment processing provider service to 
+perform transactions. At the same time, the application will integrate with an email-service to notify customers when 
+they get a reward or a discount.
+
+For future versions, the applicaton will probably be ported to other mobile OSes so that it can be used by multiple 
+retailers. There is also a thought of increasing the type of rewards by adding coupons etc... and also allowing other types
+of payments.
+
+## 4 Major Features (Optional)
+
+The following are the major features that PReMS will be able to provide:
+
+4.1 The stall managers will be able to add/edit customer accounts in the system.
+
+4.2 The stall managers will be able to process customer payments through this system.
+
+4.3 The system is capable of calculating rewards (absolute and gold discounts) based on transaction amounts for a 
+customer and store the rewards information for future transactions.
+
+4.4 The system is capable of computing the final payment after applying discounts/rewards.
+
+4.5 The system is capable of reading credit card information through a credit card scanner service.
+
+4.6 The system is capable of connecting to a payment-processing service to perform credit card transactions.
+
+4.7 The stall manager will be able to check the transaction history of a customer in detail.
+
+4.8 The system is capable of sending emails to customers when they reach min-purchase for gold status or for 10-dollar 
+rewards.
+
+4.9 The system is capable of updating customer status and their transaction history.
+
+## 5 Scope and Limitations
+
+5.1 PReMS is designed for two mobile stall owners to manage payment and rewards for their business in a local farmer
+market. It is not open to the public including customers.
+
+5.2 PReMS is only designed to work on Android OS device. It will not work on any other systems such as iPhone.
+
+5.3 PReMS only accepts payment by Credit cards. Other payment methods such as cash, coupons etc... are not supported
+
+5.4 PReMS will not fetch the previously used Credit card information (stored in transaction history) for new transactions;
+even for the same customer. Each time, the credit card has to be scanned even if it is the same credit card. This is done 
+to enhance security.
